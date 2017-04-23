@@ -1,0 +1,595 @@
+﻿.BlankBlock {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.BlankBlock .BlockTitle {
+    padding: 5px 0;
+}
+.BlankBlock .BlockTitle h2 {
+    color: #262626;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 24px;
+}
+.BlankBlock .BlockCon {
+    position: relative;
+}
+.BlankBlock .BlockCon input {
+    border: 1px solid #c9c9c9;
+}
+.BlankBlock .BlockCon textarea {
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+.mobile_an {
+    margin-top: 5px;
+    padding: 0 15px;
+}
+.edit_content {
+    display: inline-block;
+    width: 100%;
+}
+.q_list {
+}
+.q_list_li {
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    padding: 0;
+    width: 100%;
+    
+}
+.q_list_text {
+    padding: 12px 10px;
+    line-height:30px;
+}
+.q_linst_info {
+    float:right;
+}
+.q_linst_info span {
+    color: #adadad;
+    font-size: 14px;
+}
+.q_list_li h2 {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: normal !important;
+    overflow: hidden;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float:left;
+    width:88%;
+}
+.DropDownMenu {
+    display: none;
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.DropDownMenu ul {
+    width: 100%;
+}
+.DropDownMenu ul li {
+    float: left;
+    width: 25%;
+}
+.DropDownMenu ul a {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 21px;
+    margin: 15px auto;
+    padding: 0 10px;
+    width: 21px;
+}
+.add_question {
+    font-size: 18px;
+    height: 30px;
+    line-height: 33px;
+    margin: 10px auto 0;
+    padding: 0 0 0 26px;
+    position: relative;
+    text-align: left;
+    width: 100px;
+}
+.add_question i {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+
+ .sel_items>div {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    padding-right: 35px;
+    padding-left:42px;
+}
+     .sel_items .box {
+    margin:5px 8px;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 50px;
+    display: inline-block;
+}
+    .sel_items .input {
+    display: inline-block;
+    border: 1px solid #ccc;
+    line-height: 35px;
+    height: 35px;
+    position: absolute;
+    width:80%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding-left: 10px;
+    background:#fff;
+}
+
+ .sel_items .input>input {
+    font-size: 1em;
+    outline: 0;
+    overflow: hidden;
+    width: 100%;
+    border: 0;
+    height:33px;
+}
+.cb {
+    display: none
+}
+
+a.jqcheck {
+     background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding:12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top:6px;
+}
+ a.jqchecked
+{
+     background-color:#53a4f4!important;
+     background: url("/images/checkedbox.png") no-repeat  scroll center top  transparent;
+    background-size:cover;
+    display: block;
+    height: 26px;
+    vertical-align: middle;
+    width: 26px;
+    border:none;
+}
+
+.addImg {
+    position: absolute;
+    right:10px;
+    top: 14px;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url(/images/weixin/camera.png);
+}
+.addImg input {
+    opacity:0;
+    outline:none;
+}
+
+.add_icon {
+    background-image: url("add.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+.add_ico {
+    background-image: url("/images/weixin/tianjia.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+.CreateQuestionsBox {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6666;
+}
+.CreateQuestionsBox .Q_mack {
+    background-color: #e6eaeb;
+    height: 100%;
+    opacity: 0.99;
+    position: fixed;
+    width: 100%;
+    z-index: 6667;
+}
+.QuestionsBox_con {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 7777;
+}
+.QuestionsBox_con h2 {
+    font-size: 18px;
+    height: 50px;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+.add_Q_list {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.add_Q_list li {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+.add_Q_list li:first-child {
+    margin-left: 0;
+}
+.add_Q_list li:last-child {
+    margin-right: 0;
+}
+.add_Q_list p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.add_Q_list .q_ico {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75px;
+    width: 75px;
+}
+.add_Q_list .ico_Single {
+    background-image: url("/images/weixin/danxuan.png");
+}
+.add_Q_list .ico_SingleTp {
+    background-image: url("/images/weixin/danxuantp.png");
+}
+.add_Q_list .ico_SingleKs {
+    background-image: url("/images/weixin/danxuanks.png");
+}
+.add_Q_list .ico_Muitiple {
+    background-image: url("/images/weixin/duoxuan.png");
+}
+.add_Q_list .ico_MuitipleTp {
+    background-image: url("/images/weixin/duoxuantp.png");
+}
+.add_Q_list .ico_MuitipleKs {
+    background-image: url("/images/weixin/duoxuanks.png");
+}
+.add_Q_list .ico_Blank {
+    background-image: url("/images/weixin/tiankong.png");
+}
+.add_Q_list .ico_BlankKs {
+    background-image: url("/images/weixin/tiankongks.png");
+}
+.add_Q_list .ico_MuitipleBlank {
+    background-image: url("/images/weixin/duohang.png");
+}
+.add_Q_list .ico_Score {
+    background-image: url("/images/weixin/dafen.png");
+}
+.add_Q_list .ico_PaiXu {
+    background-image: url("/images/weixin/paixu.png");
+}
+.add_Q_list .ico_file {
+    background-image: url("/images/weixin/fileupload.png");
+}
+.add_Q_list .ico_cut {
+    background-image: url("/images/weixin/cut.png");
+}
+.add_Q_list .ico_name {
+    background-image: url("/images/weixin/name.png");
+}
+.add_Q_list .ico_phone {
+    background-image: url("/images/weixin/shouji.png");
+}
+.add_Q_list .ico_mail {
+    background-image: url("/images/weixin/youxiang.png");
+}
+.add_Q_list .ico_address {
+    background-image: url("/images/weixin/dizhi.png");
+}
+.add_Q_list .ico_data {
+    background-image: url("/images/weixin/riqi.png");
+}
+.add_Q_list .ico_time {
+    background-image: url("/images/weixin/shijian.png");
+}
+.add_Q_list .ico_sex {
+    background-image: url("/images/weixin/xingbie.png");
+}
+.QuestionsBox_footer {
+    background-color: #fff;
+    height: 45px;
+    padding: 10px 0;
+    width: 100%;
+}
+.QuestionsBox_footer > table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.QuestionsBox_close {
+    background-image: url("/images/weixin/guanbibianji.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 21px;
+    margin: 3px auto 0;
+    width: 21px;
+}
+.QuestionsBox_n {
+    overflow: hidden;
+    width: 5000px;
+}
+.QuestionsBox_li {
+    float: left;
+}
+.add_Q_list .q_ico:active {
+    animation: 0.1s linear 0s normal none 1 blurS;
+    opacity: 0.8;
+    transform: scale(1.3);
+}
+@keyframes blurS {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(1.3);
+}
+}
+@keyframes blurS {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(1.3);
+}
+}
+.form_button {
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 3px;
+    color: #333333;
+    font-size: 18px;
+    margin: 10px 0 0 !important;
+    padding: 12px 5px;
+    position: relative;
+    width: 100%;
+}
+.form_button h2 {
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form_button .fb_right {
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+.Switch_mobile {
+    background-color: #4cda64;
+    border-radius: 2px;
+    height: 30px;
+    margin: 4px 5px;
+    width: 60px;
+}
+.Switch_an {
+    background-color: #ffffff;
+    border-radius: 2px;
+    float: left;
+    height: 26px;
+    margin: 2px;
+    width: 26px;
+}
+.fb_right .on {
+    background-color: #4cda64;
+}
+.fb_right .on div {
+    float: right;
+}
+.fb_right .off {
+    background-color: #e1e4e9;
+}
+.fb_right .off div {
+    float: left;
+}
+
+.SelectType {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.SelectType li {
+    color: #509ac9;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 50%;
+}
+.SelectType li:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.SelectType li:last-child {
+    border-radius: 0 3px 3px 0;
+}
+.SelectType .active {
+    background-color: #2e8ec1;
+    color: #fff;
+}
+.fb_select {
+    color: #bebebe;
+    float: right;
+    font-size: 16px;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+}
+.fb_select span {
+    float: right;
+    font-size: 14px;
+    padding: 0 8px;
+}
+.fb_select .select_ico {
+    background-image: url("/images/weixin/DownArrow.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    height: 18px;
+    margin: 13px 15px 0 0;
+    width: 20px;
+}
+.fb_select select {
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.Qtitle_img {
+    display: inline-block;
+    margin: 15px 0;
+    min-height: 50px;
+    position: relative;
+    width: 100px;
+}
+.QImgCon {
+    display: none;
+}
+.mobile_t_imgCon {
+    display: none;
+}
+
+.M_sorting li {
+    padding: 10px;
+}
+.BlankBlock .unstyled {
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 0;
+}
+.BlankBlock .unstyled li {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #ebebeb;
+    border-color: #fff #fff #ebebeb;
+    font-size: 16px;
+    min-height: 43px;
+    position: relative;
+}
+.BlankBlock .unstyled li:first-child {
+    border-radius: 4px 4px 0 0;
+}
+.BlankBlock .unstyled li:last-child {
+    border-bottom: 0 solid #fff !important;
+    border-radius: 0 0 4px 4px;
+}
+.DownArrow {
+    background-image: url("/images/weixin/DownArrow.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 13px;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    width: 20px;
+}
+.InputBor {
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    padding-right: 40px;
+}
+.InputBor input {
+    border: medium none !important;
+}
+.InputBor_pr0 {
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+}
+.InputBor_pr0 input, .InputBor_pr0 textarea {
+    border: medium none !important;
+}
+.input_focus {
+    border: 1px solid #51a2e4 !important;
+}
+
+.stop_tap_mack {
+    background-color: #fff;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.DropDownMenu ul a {
+    display: block;
+    height:60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.DropDownMenu ul li {
+}
+.DropDownMenu ul li div {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height:50px;
+    margin: 15px auto;
+    padding: 0 10px;
+    width:40px;
+}
+.DropDownMenu .list_editbg {
+    background-image: url("/images/weixin/edit.png");
+}
+.DropDownMenu .list_upbg {
+    background-image: url("/images/weixin/moveup.png");
+}
+.DropDownMenu .list_downbg {
+    background-image: url("/images/weixin/movedown.png");
+}
+.DropDownMenu .list_delbg {
+    background-image: url("/images/weixin/delete.png");
+}
+.topic_input {
+background-color: #FFFFFF;
+border: medium none;
+border-radius: 3px;
+font-size: 14px;
+margin: 0 !important;
+padding: 12px 8px;
+width: 100%;
+color: #333;
+}

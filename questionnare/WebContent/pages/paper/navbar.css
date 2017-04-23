@@ -1,0 +1,73 @@
+.TFtab{
+   padding-left:3%;
+   padding-right:3%;
+}
+.TFtab li.wjx_01 {
+    background-position: 35px 10px;
+}
+.TFtab li {
+    background: url(tablist.png) no-repeat #f4f4f4;
+    text-align: center;
+    float:left;
+    width: 138px;
+    height: 126px;
+    border: 1px solid #FFF;
+    margin: 0 10px 0px 10px;
+}
+.TFtab li.wjx_01 A.wactive {
+    border: 1px solid #ea7f26;
+    background: url(tablist.png) no-repeat #FFF;
+    background-position: 34px -60px;
+}
+.TFtab li A.wactive i {
+    background: url(tablisth.png) no-repeat left;
+    width: 33px;
+    height: 35px;
+    float: left;
+    display: inline-block;
+}
+.TFtab li A.wactive p {
+    background: #ea7f26;
+}
+.TFtab li p {
+    font-size: 18px;
+    line-height: 48px;
+    color: #FFF;
+    background: #b9b9b9;
+    margin-top: 78px;
+    height: 48px;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+.TFtab li a {
+    width: 138px;
+    height: 126px;
+    float: left;
+    border: 1px solid #FFF;
+}
+.TFtab li.wjx_04 {
+    background-position: -365px 10px
+}
+.TFtab li.wjx_06 {
+    background-position: -630px 10px !important;
+}
+.TFtab li a {
+    width: 138px;
+    height: 126px;
+    float: left;
+    border: 1px solid #FFF;
+}
+
+
+.top{
+    display: inline-block;
+    float:right;
+    width: 21px;
+    height: 21px;
+    margin: 15px auto 0 auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(top.png);
+    background-size: contain;
+}

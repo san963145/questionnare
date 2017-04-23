@@ -1,0 +1,296 @@
+﻿
+.survey_list {
+    background-color: #fff;
+}
+.survey_list .list_li {
+    border-bottom: 1px solid #ededed;
+    color: #333;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0;
+}
+.survey_list .list_li > a {
+    color: #2e8ec1;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.survey_list .list_li .list_text {
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.survey_list .list_r {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 15px;
+    width: 150px;
+}
+.survey_list .get_result {
+    color: #2e8ec1;
+    font-size: 16px;
+}
+.survey_list .wjNumber {
+    background-color: #a1d8f6;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 2px 5px;
+}
+.Fbk textarea {
+    border: 1px solid #bfbfbf;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+}
+.mot10 {
+    margin-top: 10px;
+}
+.Fbk input {
+    border: 1px solid #bfbfbf;
+    padding: 5px;
+    width: 100%;
+}
+.Fbk p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.Fbk input {
+    padding: 10px 5px;
+}
+.Fbk_con {
+    margin-bottom: 20px;
+}
+.addSurvey {
+    display: none;
+    padding-top: 3px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 99;
+}
+.mackbox {
+    background: url("bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    margin: 6px 5px 5px;
+    min-height: 100px;
+}
+.mackbox ul {
+}
+.mackbox ul li {
+    float: left;
+    padding: 0;
+    width: 50%;
+}
+.mackbox ul li a {
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+}
+.mackbox ul li a div {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    margin: 0 auto 5px;
+    width: 40px;
+}
+.mackbox ul li:first-child a {
+    border-left: 0 solid #6a7378;
+    border-right: 1px solid #6a7378;
+}
+.mackbox ul li:last-child a {
+    border-left: 1px solid #4b5258;
+    border-right: 0 solid #6a7378;
+}
+
+.BlankAddBut {
+    background-image: url("blanknew.png");
+}
+.TmpAddBut {
+    background-image: url("tmpnew.png");
+}
+.mackbox_Arrow {
+    background-image: url("bg_2.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6px;
+    position: absolute;
+    right: 24px;
+    width: 13px;
+}
+
+.morePage {
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+}
+.share_result_menu {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.share_result_menu ul a {
+    display: block;
+    height:60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.share_result_menu ul li {
+    float: left;
+    width: 25%;
+}
+.share_result_menu ul li div {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 50px;
+    margin: 15px auto;
+    padding: 0 10px;
+    width: 40px;
+}
+.share_result_menu .sr_list_editbg {
+    background-image: url("edit.png");
+}
+.share_result_menu .sr_list_no_editbg {
+    background-image: url("no-edit.png");
+}
+.share_result_menu .sr_sharebg {
+    background-image: url("share.png");
+}
+.share_result_menu .sr_resultbg {
+    background-image: url("result.png");
+}
+.share_result_menu .sr_list_delbg {
+    background-image: url("delete.png");
+}
+.share_result_menu .sr_pubbg {
+    background-image: url("pub.png");
+}
+.share_result_menu .sr_viewbg {
+    background-image: url("view.png");
+}
+.share_result_menu .sr_copybg {
+    background-image: url("copy.png");
+}
+
+
+.list_li_conent {
+    padding: 15px 120px 15px 15px;
+}
+.nav_more {
+    top:50px;
+    display: none;
+    position: fixed;
+    left: 0;
+    width:150px;
+    z-index: 99;
+}
+.nav_more .mackbox {
+    background: url("/images/weixin/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    margin: 6px 5px 0;
+    min-height: 154px;
+}
+.nav_more .mackbox ul li {
+    width: 100%;
+}
+.nav_more .mackbox ul li a {
+    border-bottom: 1px solid #6a7378;
+    border-top: 1px solid #4b5258;
+}
+.nav_more .mackbox ul li:first-child {
+}
+.nav_more .mackbox ul li:first-child a {
+    border-top: medium none;
+}
+.nav_more .mackbox ul li:last-child a {
+    border-bottom: medium none;
+}
+.mackbox ul li:first-child a {
+    border-left: 0 solid #6a7378;
+    border-right: 1px solid #6a7378;
+}
+
+.header_nav {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 140px;
+}
+.header_nav li {
+    border: 1px solid #fff;
+    float: left;
+    line-height: 21px;
+    padding: 3px 18px;
+}
+.header_nav li a {
+    color: #fff;
+    font-size: 16px;
+}
+.header_nav li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.header_nav li:last-child {
+    border-left: medium none;
+    border-radius: 0 5px 5px 0;
+}
+.nav_active {
+    background-color: #fff;
+}
+.nav_active a {
+    color: #308ec2 !important;
+}
+.tableResult {
+    border-top:1px solid #d7d7d7;
+}
+.tableResult td {
+    border-bottom: 1px solid #d7d7d7;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 3px 10px;
+    border-left: 1px solid #d7d7d7;
+}
+.tableResult tr td:last-child {
+    border-right: 1px solid #d7d7d7;
+}
+     .pageitem {
+    cursor: pointer;
+    border-radius: 6px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    list-style: none;
+   display:inline-block;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    margin-right: 8px;
+    font-family: Arial;
+} .pageitem a {
+       color: #666;
+        transition: none;
+        width:32px;
+        display:block;
+ }
+    .pageitem:hover {
+    transition: all .3s ease;
+    border-color: #2db7f5;
+}
+      .pageitem:hover a {
+    color: #2db7f5;
+}

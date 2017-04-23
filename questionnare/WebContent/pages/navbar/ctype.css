@@ -1,0 +1,277 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	background:#f5f5f5;
+	text-align:left;
+	margin:0;
+	padding:0;
+	}
+p,h1,h2,h3,h4,h5,h6,ul,li,div{
+	margin:0;
+	padding:0;
+	}
+.TFmain{
+	width: 918px;
+    margin: 35px auto 55px;
+    padding: 0 0 40px 0;
+    background: #FFF;
+    overflow: hidden;
+    border: 1px solid #e9eaea;
+	}
+.CRTitle{
+	background:url(/images/createq/CR-title.jpg) no-repeat;
+	}
+.MTitle{
+	background:url(/images/createq/MB-title.jpg) no-repeat;
+	width:855px;
+	height:73px;
+	padding:0 35px 0 30px;
+	line-height:65px;
+	*line-height:69px;
+	}
+.MTitle h2{
+	float:left;
+	font-size:20px;
+	color:#FFF;
+	font-weight:normal;
+	}
+.MTitle h2 img{
+	vertical-align:middle;
+	}
+.MTitle h2 span{
+	display:inline-block;
+	}
+.MTitle h2 img{
+	padding-right:18px;
+	}
+.TFbox {
+    width:860px;
+    margin: 30px auto 8px;
+    padding: 0 10px;
+	overflow:hidden
+	}
+.TFtab{
+	display:block;
+	overflow:hidden;
+	}
+.TFtab li{
+	background:url(/images/choosetype/tablist.png) no-repeat #f4f4f4;
+    float: left;
+    text-align: center;
+    width:138px;
+	height:126px;
+	border:1px solid #FFF;
+	margin:0 2px 0px 1px;
+	*margin:0 1px;
+	}
+.TFtab li a{
+	width:138px;
+	height:126px;
+	float:left;
+	border:1px solid #FFF;
+	}
+.TFtab li.wjx_01{
+	background-position:35px 10px !important;
+	}
+.TFtab li.wjx_02{
+	background-position:-90px 10px !important;
+	}
+.TFtab li.wjx_03{
+	background-position:-230px 10px !important;
+	}
+.TFtab li.wjx_04{
+	background-position:-365px 10px !important;
+	}
+.TFtab li.wjx_05{
+	background-position:-495px 10px !important;
+	}
+.TFtab li.wjx_06{
+	background-position:-630px 10px !important;
+	}
+.TFtab li.wjx_01 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:34px -60px !important;
+	}
+.TFtab li.wjx_02 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:-91px -60px !important;
+	}
+.TFtab li.wjx_03 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:-231px -61px !important;
+	}
+.TFtab li.wjx_04 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:-366px -60px !important;
+	}
+.TFtab li.wjx_05 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:-496px -60px !important;
+	}
+.TFtab li.wjx_06 A.wactive{
+	border:1px solid #ea7f26;
+	background:url(/images/choosetype/tablist.png) no-repeat #FFF;
+	background-position:-631px -60px !important;
+	}
+.TFtab li p{
+	font-size:18px;
+	line-height:48px;
+	color:#FFF;
+	background:#b9b9b9;
+	margin-top:78px;
+	height:48px;
+	}
+.TFtab li A.wactive p{
+	background:#ea7f26;
+	}
+
+.TFtab li A.wactive i{
+	background:url(/images/choosetype/tablisth.png) no-repeat left;
+    width:33px;
+	height:35px;
+	float: left;
+    display: inline-block;
+	}
+
+.TFnext{
+	margin:50px auto 60px;
+	width:310px;
+	}
+A.TFnextbtn{
+	background: #f58220;
+    display: block;
+    border-radius:6px;
+    color:#FFF !important;
+    font-size:18px;
+	font-weight:bold;
+    text-align: center;
+	padding:10px 0;
+	color:#FFF;
+}
+A.TFnextbtn:hover{
+	background:#f88d32;
+	}
+.TFcon{
+    width:850px;
+	margin:20px auto 0;
+	}
+.TFcon h2{
+	background:url(/images/choosetype/TFlistbox-ttb.png) no-repeat top left;
+	height:33px;
+	width:745px;
+	float:left;
+	text-align:left;
+	color:#FFF;
+	font-size:16px;
+	text-indent:2em;
+	line-height:32px;
+	font-weight:normal
+	}
+.TFconlist{
+	width:850px;
+	border:1px solid #b9b9b9;
+	overflow:hidden;
+	padding:0px 0px 30px;
+    text-align:center;
+	}
+.TFlistCC {
+    width:730px;
+    margin:40px auto;
+    overflow: hidden;
+	background:url(/images/choosetype/TFjt.gif) no-repeat 0 15px;
+	}
+.TFlistCC li{
+	float:left;
+	text-align:center;
+	line-height:65px;
+	}
+.TFlistCC li a{
+	width:123px;
+	height:101px;
+	float:left;
+	font-size:15px;
+	color:#FFF;
+	}
+.TFlistCC li a:hover,a:visited{
+	color:#FFF;
+	}
+.TFlistCC li.cc1{
+	background:url(/images/choosetype/Tlist01.gif) no-repeat;
+	height:101px;
+	margin-right:83px;
+	}
+.TFlistCC li.cc2{
+	background:url(/images/choosetype/Tlist02.gif) no-repeat;
+	margin-right:73px;
+	}
+.TFlistCC li.cc3{
+	background:url(/images/choosetype/Tlist03.gif) no-repeat;
+	margin-right:82px;
+	}
+.TFlistCC li.cc4{
+	background:url(/images/choosetype/Tlist04.gif) no-repeat;
+	}
+.TFlistCC li.cc1 A.wactive1{
+	background:url(/images/choosetype/Tlist01h.gif) no-repeat;
+	text-align:center;
+	}
+.TFlistCC li.cc2 A.wactive1{
+	background:url(/images/choosetype/Tlist02h.gif) no-repeat;
+	}
+.TFlistCC li.cc3 A.wactive1{
+	background:url(/images/choosetype/Tlist03h.gif) no-repeat;
+	}
+.TFlistCC li.cc4 A.wactive1{
+	background:url(/images/choosetype/Tlist04h.gif) no-repeat;
+	}
+.TFlistCC li A.wactive1{
+	color:#FFF;
+	float:left;
+	}
+.bbcox{
+	background:url(/images/choosetype/TFks.gif) no-repeat 0 25px;
+	}
+.bbcox li a{
+	width:171px;
+	height:138px;
+	float:left;
+	color:#FFF;
+	line-height:85px;
+	}
+.TFlistCC li.dd1{
+	background:url(/images/choosetype/Tlistb01.gif) no-repeat;
+	height:138px;
+	margin-right:113px;
+	}
+.TFlistCC li.dd2{
+	background:url(/images/choosetype/Tlistb02.gif) no-repeat;
+	margin-right:98px;
+	}
+.TFlistCC li.dd3{
+	background:url(/images/choosetype/Tlistb03.gif) no-repeat;
+	}
+.TFlistCC li.dd1 A.wactive2{
+	background:url(/images/choosetype/Tlistb01h.gif) no-repeat;
+	text-align:center;
+	}
+.TFlistCC li.dd2 A.wactive2{
+	background:url(/images/choosetype/Tlistb02h.gif) no-repeat;
+	}
+.TFlistCC li.dd3 A.wactive2{
+	background:url(/images/choosetype/Tlistb03h.gif) no-repeat;
+	}
+A.TFrtxt{
+	float:right;
+	width:100px;
+	color:#ffa800;
+	font-size:14px;
+	margin:10px 0 0 0;
+	}
+A.TFrtxt:hover{
+	color:#f58220;
+	}
