@@ -27,12 +27,18 @@ public class ReceiveParser {
         int toUserNameStartIndex=xml.indexOf("<ToUserName>")+21;
         int toUserNameEndIndex=xml.indexOf("]]></ToUserName>");
         int fromUserNameStartIndex=xml.indexOf("<FromUserName>")+23;
-        int fromUserNameEndIndex=xml.indexOf("]]></FromUserName>");
-        int contentStartIndex=xml.indexOf("<Content>")+18;
-        int contentEndIndex=xml.indexOf("]]></Content>");
+        int fromUserNameEndIndex=xml.indexOf("]]></FromUserName>");        
+        int msgTypeStartIndex=xml.indexOf("<MsgType>")+18;
+        int msgTypeEndIndex=xml.indexOf("]]></MsgType>");
+        String msgType=xml.substring(msgTypeStartIndex,msgTypeEndIndex);
+        String content="non_text";
+        if(msgType.equals("text")){
+        	int contentStartIndex=xml.indexOf("<Content>")+18;
+            int contentEndIndex=xml.indexOf("]]></Content>");
+            content=xml.substring(contentStartIndex, contentEndIndex);
+        }
         String toUserName=xml.substring(toUserNameStartIndex, toUserNameEndIndex);
         String fromUserName=xml.substring(fromUserNameStartIndex, fromUserNameEndIndex);
-        String content=xml.substring(contentStartIndex, contentEndIndex);
         Map<String,String> map=new HashMap<String,String>();
         map.put("toUserName", toUserName);
         map.put("fromUserName", fromUserName);
